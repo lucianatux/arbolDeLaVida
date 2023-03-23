@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    margin: 7px;
+}
+
+span{
+   font-weight: bold;
+}
+
+/*ENCABEZADO*/
+
+.icono{
+    width: 40px;
+    height: auto;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#212529;
+}
+
+/*MAPA*/
+.mapa img{
+    width: fit-content;
+}
+
+#mapa{
+    width: 40%;
+    align-items: center;
+}
+
+/*SECCIONES*/
+
+.morada, .via{
+    background: linear-gradient(217deg, rgba(24, 24, 24, 0.8), rgba(255, 0, 0, 0) 70.71%),
+            linear-gradient(127deg, rgba(19, 19, 19, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(17, 17, 20, 0.8), rgba(0,0,255,0) 70.71%);
+    width: 100vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10%;
+}
+
+
+.arbol{
+object-fit:contain;
+height: 80vh;
+}
+
+
+

@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elArboldelaVida</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Marvel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--========================================================== -->
+                        <!-- ENCABEZADO -->
+    <!--========================================================== -->
+    <header class="container-fluid bg-light d-flex justify-content-center fixed-top">
+        <p class="text-dark my-auto fs-5">El Árbol de la Vida 
+        <img class="icono"
+            src="https://cdn-icons-png.flaticon.com/512/40/40006.png?w=740&t=st=1668387600~exp=1668388200~hmac=544df1eecc6976c7fad6bafc186e8357807c396f3bbd4efea133556ef629c570" alt=""></p>
+        <nav  class="navbar navbar-expand-lg px-1"  id="menu">   
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-dark">Menu</span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-1 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" aria-current="page" href="#mapa">Mapa</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#inicio" role="button" data-bs-toggle="dropdown" aria-expanded="false">Moradas</a>
+                        <ul class="dropdown-menu bg-light text-dark">
+                          <li><a class="dropdown-item" href="#plan">Plan</a></li>
+                          <li><a class="dropdown-item" href="#energia">Espacio Abierto de la Energía</a></li>
+                          <li><a class="dropdown-item" href="#inestabilidad">Inestabilidad</a></li>
+                          <li><a class="dropdown-item" href="#generacion">Generación</a></li>
+                          <li><a class="dropdown-item" href="#desvio">Desvío</a></li>
+                          <li><a class="dropdown-item" href="#tendencia">Tendencia</a></li>
+                          <li><a class="dropdown-item" href="#regresion">Regresión</a></li>
+                          <li><a class="dropdown-item" href="#vitalidadDifusa">Vitalidad Difusa</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#inicio">Inicio</a></li>
+                          <li><a class="dropdown-item" href="#mapa">Mapa</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--Mapa-->
+    <div class="container-fluid pt-5 mapa d-flex justify-content-center"  id="mapa">
+        <img src="https://www.elmensajedesilo.online/wp-content/uploads/el-arbol-de-la-vida-1.png" alt="">
+    </div>
+    <!--Intro-->
+    <!--========================================================== -->
+                        <!-- INTRO -->
+    <!--========================================================== -->
+    <div class="morada my-auto w-100" id="inicio">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center">Debes adquirir ahora suficiente percepción de los estados 
+                    internos en los que 
+                    te puedes encontrar a lo largo de tu vida y, particularmente, a lo largo de 
+                    tu trabajo evolutivo. No tengo otra manera de hacer la descripción, que con 
+                    imágenes (en este caso, alegorías). Éstas, según me parece, tienen por virtud 
+                    concentrar “visualmente” estados de ánimo complejos. Por otra parte la 
+                    singularidad de encadenar tales estados, como si fueran distintos momentos de 
+                    un mismo proceso, introduce una variante en las descripciones siempre 
+                    fragmentadas a que nos han acostumbrado aquellos que se ocupan de estas cosas.
+                </p>
+                <a href="#vitalidadDifusa">
+                    <button type="button" class="btn btn-light">Iniciar</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/intro.png" alt="">
+                
+            </div>
+        </div>
+    </div>
+
+    <!--Morada de la Vitalidad Difusa-->
+    <div class="morada my-auto w-100" id="vitalidadDifusa">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center"><span>Morada de la Vitalidad Difusa</span><br>El primer estado, en el que prevalece el sin-sentido 
+                    será llamado “vitalidad difusa”. Todo se orienta por las 
+                    necesidades físicas pero estas son confundidas, a menudo, con deseos e 
+                    imágenes contradictorias. Allí hay oscuridad en los motivos y los quehaceres. 
+                    Se permanece en ese estado vegetando, perdido entre formas variables. 
+                    Desde ese punto se puede evolucionar sólo por dos vías: la vía de la 
+                    muerte o la de mutación.
+                </p>
+                <a href="#muerte">
+                    <button type="button" class="btn btn-light">Vía de la Muerte</button>
+                </a>
+                <a href="#mutacion">
+                    <button type="button" class="btn btn-light">Vía de la Mutación</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="arbol"
+                src="imagenes/estadosInternos/vital.png" alt="">  
+            </div>
+        </div>
+    </div>
+    
+    <!--Via de la muerte-->
+    <div class="via my-auto w-100" id="muerte">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center"><span>Vía de la Muerte</span><br>
+                    La vía de la muerte te pone en presencia de un paisaje 
+                    caótico y oscuro. Los antiguos conocieron este pasaje y casi siempre lo 
+                    ubicaron “bajo tierra”, o en las profundidades abismales. También algunos 
+                    visitaron ese reino para luego “resucitar” en niveles luminosos. Capta 
+                    bien esto de que “abajo” de la muerte existe la vitalidad difusa. Tal 
+                    vez la mente humana relacione la desintegración mortal con posteriores 
+                    fenómenos de transformación y, también, tal vez asocie el movimiento 
+                    difuso con lo previo al nacimiento. Si tu dirección es de ascenso la 
+                    “muerte” significa un rompimiento con tu etapa anterior. Por la vía 
+                    de la muerte se asciende hacia otro estado.
+                </p>
+                <a href="#regresion">
+                    <button type="button" class="btn btn-light">Morada de la Regresión</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/muerte2.png" alt="">   
+            </div>
+        </div>
+    </div>
+
+    <!--Morada de la Regresión-->
+    <div class="morada my-auto w-100" id="regresion">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center"><span>Morada de la Regresión</span><br>
+                    Llegando a otro estado se encuentra el refugio de 
+                    la regresión. Desde allí se abren dos caminos: el del arrepentimiento y aquel otro 
+                    que sirvió para el ascenso, es decir: el camino de la muerte. Si tomas 
+                    el primero es porque tu decisión tiende a romper con tu vida pasada. 
+                    Si regresas por el camino de la muerte recaes en los abismos con esa 
+                    sensación de círculo cerrado.
+                </p>
+                <a href="#tendencia">
+                    <button type="button" class="btn btn-light">Vía del Arrepentimiento</button>
+                </a>
+                <a href="#vitalidadDifusa">
+                    <button type="button" class="btn btn-light">Vía de la Muerte</button>
+                </a>  
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/regre.png" alt="">  
+            </div>
+        </div>
+    </div>
+
+    <!--Vía de la Mutación-->
+    <div class="via my-auto w-100" id="mutacion">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center"><span>Vía de la Mutación</span><br>
+                    Has elegido la vía de la mutación porque quieres 
+                    emerger de tu penoso estado pero sin estar 
+                    dispuesto a abandonar algunos de sus aparentes beneficios. Es pues 
+                    un falso camino conocido como de la “mano torcida”. Muchos monstruos 
+                    han salido de las profundidades de ese tortuoso pasadizo. Ellos han 
+                    querido tomar los cielos por asalto sin abandonar los infiernos y, 
+                    por tanto, han proyectado en el mundo medio infinita contradicción.
+                </p>
+                <a href="#vitalidadDifusa">
+                    <button type="button" class="btn btn-light">Morada de la Vitalidad Difusa</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/muta.png" alt="">   
+            </div>
+        </div>
+    </div>
+
+    <!--Morada de la Tendencia-->
+    <div class="morada my-auto w-100" id="tendencia">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center"><span>Morada de la Tendencia</span><br>
+                    Ascendiendo desde el reino de la muerte 
+                    y por tu consciente arrepentimiento, has arribado ya a la morada de 
+                    la tendencia. Dos delgadas cornisas sostienen tu morada: la conservación 
+                    y la frustración. 
+                </p>
+                <a href="#conservacion">
+                    <button type="button" class="btn btn-light">Vía de la Conservación</button>
+                </a>
+                <a href="#frustracion">
+                    <button type="button" class="btn btn-light">Vía de la Frustración</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/tend3.png" alt="">  
+            </div>
+        </div>
+    </div>
+
+    <!--Vía de la Conservación-->
+    <div class="via my-auto w-100" id="conservacion">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center"><span>Vía de la Conservación</span><br>
+                    La conservación es falsa e inestable. Caminando
+                     por 
+                    ella te ilusionas con la idea de permanencia pero en realidad desciendes 
+                    velozmente.
+                </p>
+                <a href="#vitalidadDifusa">
+                    <button type="button" class="btn btn-light">Morada de la Vitalidad Difusa</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/conser.png" alt="">   
+            </div>
+        </div>
+    </div>
+
+    <!--Vía de la Frustración-->
+    <div class="via my-auto w-100" id="frustracion">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center"><span>Vía de la Frustración</span><br>
+                    Si tomas el camino de la frustración tu 
+                    subida es penosa, 
+                    aunque única-no-falsa.
+                    De fracaso en fracaso puedes llegar al próximo descanso al que se llama 
+                    “morada del desvío”. 
+                </p>
+                <a href="#desvio">
+                    <button type="button" class="btn btn-light">Desvío</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/frus3.png" alt="">   
+            </div>
+        </div>
+    </div>
+
+    <!--Morada del Desvío-->
+    <div class="morada my-auto w-100" id="desvio">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center"><span>Morada del Desvío</span><br>Cuidado con 
+                    las dos vías que tienes ahora por delante: 
+                    o tomas el camino de la resolución, que te lleva a la generación, o tomas 
+                    el del resentimiento que te hace descender nuevamente hacia la regresión. 
+                    Allí estás plantado frente al dilema: o te decides por el laberinto de la 
+                    vida consciente (y lo haces con resolución), o regresas resentido a tu 
+                    vida anterior. Son numerosos los que no habiendo logrado superarse cortan 
+                    allí sus posibilidades.
+                </p>
+                <a href="#generacion">
+                    <button type="button" class="btn btn-light">Vía de la Resolución</button>
+                </a>
+                <a href="#regresion">
+                    <button type="button" class="btn btn-light">Vía del Resentimiento</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/desvio.png" alt="">  
+            </div>
+        </div>
+    </div>
+
+    <!--Morada de la Generación-->
+    <div class="morada my-auto w-100" id="generacion">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center">
+                    <span>Morada de la Generación</span><br>
+                    Pero tú que has ascendido con resolución te encuentras 
+                    ahora en la posada conocida como “generación”. Allí tienes tres puertas: 
+                    una se llama “Caída”, otra “Intento” y la tercera “Degradación”.
+                </p>
+                <a href="#caida">
+                    <button type="button" class="btn btn-light">Vía de la Caída</button>
+                </a>
+                <a href="#inestabilidad">
+                    <button type="button" class="btn btn-light">Vía del Intento</button>
+                </a>
+                <a href="#degradacion">
+                    <button type="button" class="btn btn-light">Vía de la Degradación</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/gener2.png" alt="">  
+            </div>
+        </div>
+    </div>
+
+    <!--Vía de la Caída-->
+    <div class="via my-auto w-100" id="caida">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center">
+                    <span>Vía de la Caída</span><br>
+                    La Caída 
+                    te lleva directamente a las profundidades y sólo un accidente externo 
+                    podría empujarte hacia ella.
+                </p>
+                <a href="#regresion">
+                    <button type="button" class="btn btn-light">Morada de la Regresion</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/caida2.png" alt="">   
+            </div>
+        </div>
+    </div>
+    
+    <!--Vía de la Degradación-->
+    <div class="via my-auto w-100" id="degradacion">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center">
+                    <span>Vía de la Degradación</span><br>
+                    Mientras 
+                    que aquella de la Degradación te lleva indirectamente a los abismos, 
+                    desandando caminos, en una suerte de espiral turbulento en el que 
+                    reconsideras de continuo todo lo perdido y todo lo sacrificado. 
+                    Este examen de conciencia que lleva a la Degradación es, por cierto, 
+                    un falso examen en el que subestimas y desproporcionas algunas cosas 
+                    que comparas. Tú cotejas el esfuerzo del ascenso con aquellos “beneficios” 
+                    que has abandonado. Pero, si miras las cosas más de cerca, verás que no 
+                    has abandonado nada por este motivo sino por otros. La Degradación 
+                    comienza pues falseando los motivos que, al parecer, fueron ajenos al 
+                    ascenso. Yo pregunto ahora: ¿Qué traiciona a la mente? ¿Acaso los 
+                    falsos motivos de un entusiasmo inicial? ¿Acaso la dificultad de la empresa? 
+                    ¿Acaso el falso recuerdo de sacrificios que no existieron, o que fueron 
+                    impulsados por otros motivos? Yo te digo y te pregunto ahora: tu casa se 
+                    incendió hace tiempo. Por ello decidiste el ascenso, ¿o ahora piensas 
+                    que por ascender aquella se incendió? ¿Acaso has mirado un poco lo que 
+                    sucedió a otras casas de los alrededores?…  
+                </p>
+                <a href="#tendencia">
+                    <button type="button" class="btn btn-light">Morada de la Tendencia</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/degrad2.png" alt="">   
+            </div>
+        </div>
+    </div>
+
+    <!--Morada de la Inestabilidad-->
+    <div class="morada my-auto w-100" id="inestabilidad">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center">
+                    <span>Morada de la Inestabilidad</span><br>
+                    Sube por la escalinata del Intento y llegarás a una 
+                    cúpula inestable. Desde allí, desplázate por un pasillo estrecho y 
+                    sinuoso que conocerás como la “volubilidad”, hasta llegar a un espacio 
+                    amplio y vacío (como una plataforma), que lleva por nombre: 
+                    “espacio-abierto-de-la-energía”.  
+                </p>
+                <a href="#energia">
+                    <button type="button" class="btn btn-light">Vía de la Volubilidad</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/intento.png" alt="">  
+            </div>
+        </div>
+    </div>
+
+    <!--Morada del espacio abierto de la Energía-->
+    <div class="morada my-auto w-100" id="energia">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center">
+                    <span>Espacio Abierto de la Energía</span><br>
+                    En ese espacio puedes espantarte por el paisaje 
+                    desierto e inmenso y por el aterrador silencio de esa noche transfigurada 
+                    por enormes estrellas inmóviles. Allí, exactamente sobre tu cabeza, verás 
+                    clavada en el firmamento la insinuante forma de la Luna Negra… 
+                    Podría suceder en tal situación que quisieras arreglar 
+                    una salida inmediata de allí. Si tal ocurre, podrías a tientas encaminarte 
+                    a cualquier lugar con tal de no esperar el día prudentemente. Debes 
+                    recordar que todo movimiento allí (en la oscuridad), es falso y genéricamente 
+                    es llamado “improvisación”.
+                </p>
+                <a href="#lunaNegra">
+                    <button type="button" class="btn btn-light">la Luna Negra</button>
+                </a>
+                <a href="#improvisacion">
+                    <button type="button" class="btn btn-light">Vía de la Improvisación</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/ener.png" alt="">  
+            </div>
+        </div>
+    </div>
+
+    <!--La Luna Negra-->
+    <div class="morada my-auto w-100" id="lunaNegra">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center">
+                    <span>La Luna Negra</span><br>
+                    Ves una extraña 
+                    luna eclipsada que se opone exactamente al Sol. Allí debes esperar la 
+                    alborada, paciente y con fe, pues nada malo puede ocurrir si te mantienes 
+                    calmo.  
+                </p>
+                <a href="#plan">
+                    <button type="button" class="btn btn-light">Vía de la Purificacion</button>
+                </a>
+                <a href="#inestabilidad">
+                    <button type="button" class="btn btn-light">Vía de la Confusión</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/luna.png" alt="">  
+            </div>
+        </div>
+    </div>
+
+    <!--Vía de la Improvisación-->
+    <div class="via my-auto w-100" id="improvisacion">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center">
+                    <span>Vía de la Improvisación</span><br>
+                    Comienzas a improvisar movimientos.  Inevitablemente eres 
+                    arrastrado por un torbellino entre senderos y moradas hasta el fondo más 
+                    oscuro de la disolución.
+                    ¡Qué difícil resulta comprender que los estados internos están encadenados 
+                    unos a otros! Si vieras qué lógica inflexible tiene la conciencia, advertirías 
+                    que en la situación descripta quien improvisa a ciegas fatalmente comienza a 
+                    degradar y a degradarse; surgen después en él los sentimientos de frustración 
+                    y va cayendo luego en el resentimiento y en la muerte, sobreviniendo el 
+                    olvido de todo lo que algún día alcanzó a percibir. 
+                </p>
+                <a href="#vitalidadDifusa">
+                    <button type="button" class="btn btn-light">Morada de la Vitalidad Difusa</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/degrad.png" alt="">   
+            </div>
+        </div>
+    </div>
+
+    <!--Morada del Plan-->
+    <div class="morada my-auto w-100" id="plan">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center">
+                    <span>Morada del Plan</span><br>
+                    Si en la explanada logras alcanzar el día surgirá ante 
+                    tus ojos el radiante Sol que ha de alumbrarte por vez primera la realidad. 
+                    Entonces verás que en todo lo existente vive un Plan.
+                    Es difícil que caigas desde allí salvo que voluntariamente quieras descender 
+                    hacia regiones más oscuras para llevar la luz a las tinieblas.  
+                </p>
+                <a href="#final">
+                    <button type="button" class="btn btn-light">Final</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/plan3.png" alt="">  
+            </div>
+        </div>
+    </div>
+
+    <!--Final-->
+    <div class="morada my-auto w-100" id="final">
+        <div class="row justify-content-center">
+            <div class="col-sm-6">
+                <p class="text-center">
+                    No es valioso desarrollar más estos temas porque 
+                    sin experiencia engañan, trasladando al campo de lo imaginario lo 
+                    realizable. Que sirva lo dicho hasta aquí. Si lo explicado no te 
+                    fuera útil qué podrías objetar, ya que nada tiene fundamento y razón 
+                    para el escepticismo, próximo a la imagen de un espejo, al sonido de 
+                    un eco, a la sombra de una sombra.   
+                </p>
+                <a href="#mapa">
+                    <button type="button" class="btn btn-light">Mapa</button>
+                </a>
+            </div>
+            <div class="col-sm-6 d-flex flex-column">
+                <img class="img-responsive arbol"
+                src="imagenes/estadosInternos/final4.png" alt="">  
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
