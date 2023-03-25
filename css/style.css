@@ -37,12 +37,14 @@ span{
 
 /*MAPA*/
 .mapa img{
-    width: fit-content;
+    max-width: 100%;
+    height: auto;
+   
 }
 
 #mapa{
-    width: 40%;
     align-items: center;
+    text-align: center;
 }
 
 /*SECCIONES*/
