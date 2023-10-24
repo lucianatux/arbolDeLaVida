@@ -24,6 +24,10 @@ El proyecto hace uso de las siguientes tecnologías y herramientas:
 
 Este proyecto se considera como un trabajo básico que podría servir como punto de partida para futuros desarrollos. Aunque es simple en su implementación actual, ofrece una idea única y creativa. A medida que se continúa desarrollando, es posible agregar más contenido, interactividad y características para enriquecer la experiencia del usuario.
 
+## Demostración
+
+Puedes ver una demostración en vivo de la aplicación https://lucianatux.github.io/arbolDeLaVida/
+
 ## Créditos y Atribución
 
 Los textos y descripciones alegóricas utilizados en este proyecto son extractos del libro "Humanizar la Tierra" del autor Silo. Estos textos se utilizan con el propósito de representar estados internos y procesos evolutivos de una manera alegórica y visual. Se agradece al autor Silo por su contribución a la literatura que ha inspirado este proyecto.
